@@ -115,7 +115,6 @@ const App = () => {
   );
 };
 
-// Shared styles for badge
 const badgeStyle = {
   position: 'absolute',
   right: -6,

@@ -10,7 +10,7 @@ import profileReducer from './slices/profileSlice';
 const persistConfig = {
     key: 'root',
     storage: AsyncStorage,
-    whitelist: ['cart', 'profile'], // Only persist cart and profile
+    whitelist: ['cart', 'profile'],
 };
 
 const rootReducer = combineReducers({
